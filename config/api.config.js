@@ -31,4 +31,5 @@ module.exports = {
   // - stale-while-revalidate: allow serving stale content while revalidating on the edge
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
   cacheControlHeader: 'max-age=0, s-maxage=60, stale-while-revalidate',
+  directLinkRegex: true,
 }
